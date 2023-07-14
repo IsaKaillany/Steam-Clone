@@ -1,7 +1,11 @@
 import styles from './button.module.css'
 
-export default function Button({children}) {
+/*
+    Passa o parâmetro fullWidth quando a tag é chamada para que a modificação do css seja aplicada.
+*/
+
+export default function Button({children, fullWidth}) {
     return (
-        <button className={styles.button}>{children}</button>
+        <button className={`${styles.button} ${fullWidth && styles.fullwidth}`}>{children}</button>
     )
 }
