@@ -6,7 +6,8 @@
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
-    gap: 8px;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .gameContainer {
@@ -14,4 +15,10 @@
     flex-direction: column;
     gap: 20px;
     margin-top: 20px;
+}
+
+@media (max-width: 850px) {
+    .saleContainer {
+        justify-content: center;
+    }
 }
