@@ -7,6 +7,7 @@ Projeto desenvolvido durante o evento Semana da Evolução na Programação ofer
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-pré-requisitos">Pré-Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-comandos">Comandos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
@@ -18,9 +19,9 @@ Projeto desenvolvido durante o evento Semana da Evolução na Programação ofer
 
 <br>
 
-<!-- <p align="center">
-  <img alt="netflix" src=".github/preview-steam.jpg" width="100%">
-</p> -->
+<p align="center">
+  <img alt="preview" src=".github/preview-steam.jpg" width="100%">
+</p>
 
 ## 🚀 Tecnologias
 
@@ -30,11 +31,15 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - ReactJS
 - NextJS
 - NodeJS
-- CSS
+- HTML e CSS
 
 ## 💻 Projeto
 
 Esse projeto apresenta um clone da plataforma de jogos Steam.
+
+## 🔖 Layout
+
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/ZgXjnDw8VuG4hmdgpU4Y91/DevSteam?node-id=3%3A55&mode=dev). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## 📄 Pré-requisitos
 
