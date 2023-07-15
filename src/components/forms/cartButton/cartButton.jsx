@@ -9,7 +9,7 @@ import CartMenu from '@/components/cartMenu/cartMenu'
     O estado não pode ser modificado fora do componente, apenas dentro dele.
 */
 
-export default function CartButton() {
+export default function CartButton({cart, onRemove}) {
     const [open, setOpen] = useState(false) /*Destructor de array */
 
     return (
@@ -20,7 +20,7 @@ export default function CartButton() {
                 onClick={() => {setOpen(!open)}}
             />
             {/* Se o open = true, mostra o CartMenu */}
-            {open && <CartMenu/>} 
+            {open && <CartMenu cart={cart} onRemove={onRemove}/>} 
         </div>
     )
 }

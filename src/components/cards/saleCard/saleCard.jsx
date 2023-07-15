@@ -11,7 +11,7 @@ import Button from '@/components/forms/button/button'
     A tag Image faz o processamento para mostrar ao usuário somente a imagem do tamanho que ele precisa.
 */
 
-export default function SaleCard({image, discount, fullPrice, discountPrice}) {
+export default function SaleCard({image, discount, fullPrice, discountPrice, onAdd}) {
     return (
         <div className={styles.saleCard}>
             <Image src={`/products/${image}`} alt={`Produto ${image}`} width={250} height={300} />
@@ -24,7 +24,7 @@ export default function SaleCard({image, discount, fullPrice, discountPrice}) {
                         <h4 className={styles.discountPrice}>R${discountPrice}</h4>
                     </div>
                 </div>
-                <Button fullWidth>Adicionar ao carrinho</Button>
+                <Button onClick={onAdd} fullWidth>Adicionar ao carrinho</Button>
             </div>
         </div>
     )

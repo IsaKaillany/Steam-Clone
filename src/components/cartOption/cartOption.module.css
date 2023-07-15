@@ -27,3 +27,7 @@
     text-transform: uppercase;
     cursor: pointer;
 }
+
+.image {
+    object-fit: contain;
+}

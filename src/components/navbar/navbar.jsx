@@ -11,14 +11,17 @@ import CartButton from '@/components/forms/cartButton/cartButton'
     Precisa ser exportado;
     Precisa ceder um retorno HTML;
 */
-export default function Navbar() {
+export default function Navbar({cart, onRemove}) {
     return (
         <nav className={styles.navbar}>
             <Logo />
             <div className={styles.search}>
                 <Input type="text" placeholder="Buscar" fullWidth/>
             </div>
-            <CartButton />
+            <CartButton 
+                cart={cart}
+                onRemove={onRemove}
+            />
         </nav>
     )
 }
