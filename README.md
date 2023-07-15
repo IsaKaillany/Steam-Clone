@@ -18,7 +18,7 @@ Projeto desenvolvido durante o evento Semana da Evolução na Programação ofer
 <br>
 
 <p align="center">
-  <img alt="preview" src=".github/preview-steam.jpg" width="100%">
+  <img alt="preview" src=".github/preview-steam.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
