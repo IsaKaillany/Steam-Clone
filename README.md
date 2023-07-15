@@ -8,8 +8,6 @@ Projeto desenvolvido durante o evento Semana da Evolução na Programação ofer
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-pré-requisitos">Pré-Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-comandos">Comandos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -40,30 +38,6 @@ Esse projeto apresenta um clone da plataforma de jogos Steam.
 ## 🔖 Layout
 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/ZgXjnDw8VuG4hmdgpU4Y91/DevSteam?node-id=3%3A55&mode=dev). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
-
-## 📄 Pré-requisitos
-
-Você precisa ter instalado o NodeJS (Recomendado: versão 18) e o npm ou yarn.
-- Instalação do nodejs: https://nodejs.org/
-
-Também é necessário uma IDE, recomendo o VsCode
-- Instalação do VsCode: https://code.visualstudio.com/
-
-## 👩‍💻 Comandos
-
-Para instalar as bibliotecas e dependências:
-
-```bash
-npm i
-```
-
-Para rodar o projeto:
-
-```bash
-npm run dev
-```
-
-Depois, é só abrir [http://localhost:3000](http://localhost:3000) com o seu navegador.
 
 ## :memo: Licença
 
