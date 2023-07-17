@@ -1,6 +1,11 @@
 import {useState} from 'react'
+import { useRecoilValue } from 'recoil'
+
+import { cartState } from '@/atoms/cart'
+
 import styles from './cartButton.module.css'
 import {BsCart4} from 'react-icons/bs'
+
 import CartMenu from '@/components/cartMenu/cartMenu'
 
 /*
@@ -9,18 +14,17 @@ import CartMenu from '@/components/cartMenu/cartMenu'
     O estado não pode ser modificado fora do componente, apenas dentro dele.
 */
 
-export default function CartButton({cart, onRemove}) {
+export default function CartButton() {
+    const cart = useRecoilValue(cartState)
     const [open, setOpen] = useState(false) /*Destructor de array */
 
     return (
-        <div>
-            <BsCart4 
-                className={styles.icon} 
-                size={40} 
-                onClick={() => {setOpen(!open)}}
-            />
+        <div className={styles.cartButton} onClick={() => {setOpen(!open)}}>
+            <BsCart4 size={40} />     
+           
+            <div className={styles.quantity}>{cart.length}</div>
             {/* Se o open = true, mostra o CartMenu */}
-            {open && <CartMenu cart={cart} onRemove={onRemove}/>} 
+            {open && <CartMenu />} 
         </div>
     )
 }
