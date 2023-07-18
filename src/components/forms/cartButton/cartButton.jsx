@@ -22,7 +22,7 @@ export default function CartButton() {
         <div className={styles.cartButton} onClick={() => {setOpen(!open)}}>
             <BsCart4 size={40} />     
            
-            <div className={styles.quantity}>{cart.length}</div>
+            {cart.length !== 0 && <div className={styles.quantity}>{cart.length}</div>}
             {/* Se o open = true, mostra o CartMenu */}
             {open && <CartMenu />} 
         </div>
